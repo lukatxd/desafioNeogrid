@@ -6,5 +6,5 @@ public class Validator {
 		return caminhao.aceitaCarga() && caminhao.podeAceitarProduto(produto)
 		&& caminhao.getDestino().equals(produto.getDestino()) && caminhao.getCapacidade() > produto.getPeso();
 	}
-		
+
 }
