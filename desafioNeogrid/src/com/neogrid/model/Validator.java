@@ -7,4 +7,5 @@ public class Validator {
 		&& caminhao.getDestino().equals(produto.getDestino()) && caminhao.getCapacidade() > produto.getPeso();
 	}
 		
+
 }
