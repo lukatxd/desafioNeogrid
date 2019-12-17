@@ -1,4 +1,4 @@
-package com.neogrid.hackaton.control;
+package com.neogrid.hackaton.tiposArquivo;
 
 import java.io.BufferedReader;
 import java.io.File;

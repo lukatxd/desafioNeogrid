@@ -1,6 +1,7 @@
 package com.neogrid.hackaton.model;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import com.neogrid.hackaton.control.DespachaCaminhao;
@@ -33,12 +34,14 @@ public class Doca {
 	}
 
 	public void carregaCaminhoes() {
+		Iterator<Produto> it = produtos.iterator();
 		for (Caminhao caminhao : getCaminhoes()) {
 			DocaCaminhao.docar(caminhao);
-			for (Produto produto : getProdutos()) {
+			while(it.hasNext()) {
+				Produto produto = it.next();
 				boolean embarcouProduto = produto.visit(caminhao);
 				if(embarcouProduto) {
-					getProdutos().remove(produto);
+					it.remove();
 				}
 			}
 			despachaCaminhao(caminhao);

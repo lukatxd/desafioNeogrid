@@ -3,6 +3,7 @@ package com.neogrid.hackaton.control;
 import java.io.File;
 
 import com.neogrid.hackaton.model.Doca;
+import com.neogrid.hackaton.tiposArquivo.TipoArquivo;
 
 public class Reader {
 
