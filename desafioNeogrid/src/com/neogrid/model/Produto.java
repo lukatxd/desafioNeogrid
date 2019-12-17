@@ -42,9 +42,9 @@ public class Produto implements ProdutoVisitor {
 
 	@Override
 	public void visit(CaminhaoVisitable caminhao) {
-		if (caminhao.aceitaCarga() || caminhao.podeAceitarProduto(this)
-				|| caminhao.getDestino().equals(this.getDestino()) || caminhao.getCapacidade() > this.getPeso()) {
+		if (Validator.validaCarga((Caminhao) caminhao, this)) {
 			caminhao.accept(this);
 		}
 	}
+
 }
