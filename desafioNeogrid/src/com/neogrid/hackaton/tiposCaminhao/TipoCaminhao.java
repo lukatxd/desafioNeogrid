@@ -15,15 +15,15 @@ public enum TipoCaminhao {
 		this.tipoCaminhao = tipoCaminhao;
 	}
 	
-	boolean aceitaCarga() {
+	public boolean aceitaCarga() {
 		return tipoCaminhao.aceitaCarga();
 	}
 	
-	boolean aceitaProduto(Produto produto) {
+	public boolean aceitaProduto(Produto produto) {
 		return tipoCaminhao.aceitaProduto(produto);
 	}
 
 	public static TipoCaminhao getTipo(String name) {
-		return valueOf(name);
+		return valueOf(name.toUpperCase());
 	}
 }
