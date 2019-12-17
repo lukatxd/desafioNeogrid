@@ -1,0 +1,5 @@
+{
+  "tipo": "Eletronico"
+  "peso": "488.5"
+  "destino": "Palmas"
+}

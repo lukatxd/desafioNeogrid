@@ -1,0 +1,5 @@
+{
+  "tipo": "Geral"
+  "capacidade": "2750.0"
+  "destino": "Porto Alegre"
+}

@@ -1,0 +1,5 @@
+{
+  "tipo": "Refrigerados"
+  "capacidade": "500.0"
+  "destino": "Curitiba"
+}

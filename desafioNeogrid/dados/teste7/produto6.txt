@@ -1,0 +1,5 @@
+{
+    "produto": "Alimento",
+    "peso": "355.5",
+    "destino": "Palmas"
+}

@@ -53,14 +53,10 @@ public class Caminhao implements CaminhaoVisitable {
 	}
 
 	@Override
-	public void accept(ProdutoVisitor visitor) {
+	public boolean accept(ProdutoVisitor visitor) {
 		final Produto produto = (Produto) visitor;
 		carregaProduto(produto);
-		despachaCaminhao();
-	}
-
-	private void despachaCaminhao() {
-		
+		return true;
 	}
 
 	private void carregaProduto(Produto produto) {

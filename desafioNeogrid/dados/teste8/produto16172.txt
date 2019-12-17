@@ -1,0 +1,5 @@
+{
+  "tipo": "Refrigerado"
+  "peso": "448.5"
+  "destino": "Porto Alegre"
+}

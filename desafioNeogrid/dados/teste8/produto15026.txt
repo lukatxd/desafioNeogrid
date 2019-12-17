@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caminhao>
+  <tipo>Refrigerados</tipo>
+  <capacidade>500.0</capacidade>
+  <destino>Sao Leopoldo</destino>
+</caminhao>

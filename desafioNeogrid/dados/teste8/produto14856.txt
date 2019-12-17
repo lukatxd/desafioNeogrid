@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Alimento</tipo>
+  <peso>406.0</peso>
+  <destino>Rio Branco</destino>
+</produto>

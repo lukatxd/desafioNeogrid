@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Carga Ilicita</tipo>
+  <peso>274.5</peso>
+  <destino>Joinville</destino>
+</produto>

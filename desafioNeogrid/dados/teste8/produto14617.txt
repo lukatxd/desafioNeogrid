@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caminhao>
+  <tipo>Geral</tipo>
+  <capacidade>5000.0</capacidade>
+  <destino>Belo Horizonte</destino>
+</caminhao>

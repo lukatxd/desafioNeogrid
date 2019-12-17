@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caminhao>
+  <tipo>Geral</tipo>
+  <capacidade>1000.0</capacidade>
+  <destino>Joinville</destino>
+</caminhao>

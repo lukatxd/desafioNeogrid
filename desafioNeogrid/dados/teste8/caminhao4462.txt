@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caminhao>
+  <tipo>Refrigerados</tipo>
+  <capacidade>2750.0</capacidade>
+  <destino>Palmas</destino>
+</caminhao>

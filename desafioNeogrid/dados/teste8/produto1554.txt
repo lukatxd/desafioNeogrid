@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caminhao>
+  <tipo>Geral</tipo>
+  <capacidade>2750.0</capacidade>
+  <destino>Rio Branco</destino>
+</caminhao>

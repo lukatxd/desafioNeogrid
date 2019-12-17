@@ -1,0 +1,5 @@
+{
+  "tipo": "Eletronicos"
+  "capacidade": "100.0"
+  "destino": "Sao Leopoldo"
+}

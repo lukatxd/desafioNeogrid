@@ -1,0 +1,5 @@
+{
+  "tipo": "Alimento"
+  "peso": "84.0"
+  "destino": "Sao Leopoldo"
+}

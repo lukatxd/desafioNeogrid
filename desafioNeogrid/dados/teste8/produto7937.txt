@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Contrabando</tipo>
+  <peso>282.0</peso>
+  <destino>Rio de Janeiro</destino>
+</produto>

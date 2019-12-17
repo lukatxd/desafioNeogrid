@@ -1,0 +1,5 @@
+{
+  "tipo": "Alimentos"
+  "capacidade": "1600.0"
+  "destino": "Joinville"
+}

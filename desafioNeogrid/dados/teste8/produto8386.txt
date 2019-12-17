@@ -1,0 +1,3 @@
+Alimento
+65.0
+Manaus

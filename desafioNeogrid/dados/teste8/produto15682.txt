@@ -1,0 +1,5 @@
+{
+  "tipo": "Geral"
+  "capacidade": "3300.0"
+  "destino": "Rio Branco"
+}

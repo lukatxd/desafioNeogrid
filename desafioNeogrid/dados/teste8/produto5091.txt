@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Eletronico</tipo>
+  <peso>468.5</peso>
+  <destino>Sao Leopoldo</destino>
+</produto>
