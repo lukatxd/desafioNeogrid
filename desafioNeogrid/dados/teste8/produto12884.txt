@@ -1,0 +1,5 @@
+{
+  "tipo": "Carga Violada"
+  "peso": "30.5"
+  "destino": "Salvador"
+}

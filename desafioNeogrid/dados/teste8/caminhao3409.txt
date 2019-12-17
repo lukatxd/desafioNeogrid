@@ -1,0 +1,5 @@
+{
+  "tipo": "Eletronico"
+  "peso": "498.0"
+  "destino": "Joinville"
+}

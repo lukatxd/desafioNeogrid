@@ -1,0 +1,5 @@
+{
+  "tipo": "Alimentos"
+  "capacidade": "4000.0"
+  "destino": "Sao Paulo"
+}

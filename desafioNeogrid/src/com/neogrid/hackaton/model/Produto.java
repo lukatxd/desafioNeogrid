@@ -41,10 +41,11 @@ public class Produto implements ProdutoVisitor {
 	}
 
 	@Override
-	public void visit(CaminhaoVisitable caminhao) {
+	public boolean visit(CaminhaoVisitable caminhao) {
 		if (Validator.validaCarga((Caminhao) caminhao, this)) {
-			caminhao.accept(this);
+			return caminhao.accept(this);
 		}
+		else return false;
 	}
 
 }

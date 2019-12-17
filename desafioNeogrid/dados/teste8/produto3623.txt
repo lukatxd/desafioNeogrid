@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Refrigerado</tipo>
+  <peso>36.5</peso>
+  <destino>Manaus</destino>
+</produto>

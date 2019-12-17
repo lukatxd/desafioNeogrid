@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caminhao>
+  <tipo>Eletronicos</tipo>
+  <capacidade>3300.0</capacidade>
+  <destino>Porto Alegre</destino>
+</caminhao>

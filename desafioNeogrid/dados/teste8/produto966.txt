@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Refrigerado</tipo>
+  <peso>299.0</peso>
+  <destino>Porto Alegre</destino>
+</produto>

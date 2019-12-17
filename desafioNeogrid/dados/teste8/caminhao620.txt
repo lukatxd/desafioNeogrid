@@ -1,0 +1,5 @@
+{
+  "tipo": "Contrabando"
+  "peso": "418.0"
+  "destino": "Sao Paulo"
+}

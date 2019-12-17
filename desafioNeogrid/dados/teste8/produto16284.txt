@@ -1,0 +1,5 @@
+{
+  "tipo": "Carga Ilicita"
+  "peso": "100.5"
+  "destino": "Sao Leopoldo"
+}

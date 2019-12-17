@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Carga Violada</tipo>
+  <peso>119.5</peso>
+  <destino>Sao Paulo</destino>
+</produto>

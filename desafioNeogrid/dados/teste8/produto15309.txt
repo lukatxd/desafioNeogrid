@@ -1,0 +1,5 @@
+{
+  "tipo": "Passeio"
+  "capacidade": "3300.0"
+  "destino": "Goiania"
+}

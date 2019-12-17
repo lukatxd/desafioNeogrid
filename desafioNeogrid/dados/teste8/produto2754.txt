@@ -1,0 +1,5 @@
+{
+  "tipo": "Passeio"
+  "capacidade": "2750.0"
+  "destino": "Sao Leopoldo"
+}

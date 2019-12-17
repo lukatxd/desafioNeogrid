@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produto>
+  <tipo>Alimento</tipo>
+  <peso>395.0</peso>
+  <destino>Sao Leopoldo</destino>
+</produto>
