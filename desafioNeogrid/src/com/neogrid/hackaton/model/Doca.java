@@ -10,6 +10,8 @@ public class Doca {
 
 	private List<Caminhao> caminhoes;
 	private List<Produto> produtos;
+	private String filepath;
+	private String docaPath;
 
 	public void addCaminhao(Caminhao caminhao) {
 		if (caminhoes == null) {
@@ -36,11 +38,11 @@ public class Doca {
 	public void carregaCaminhoes() {
 		Iterator<Produto> it = produtos.iterator();
 		for (Caminhao caminhao : getCaminhoes()) {
-			DocaCaminhao.docar(caminhao);
-			while(it.hasNext()) {
+			DocaCaminhao.docar(this, caminhao);
+			while (it.hasNext()) {
 				Produto produto = it.next();
 				boolean embarcouProduto = produto.visit(caminhao);
-				if(embarcouProduto) {
+				if (embarcouProduto) {
 					it.remove();
 				}
 			}
@@ -49,7 +51,19 @@ public class Doca {
 	}
 
 	private void despachaCaminhao(Caminhao caminhao) {
-		DespachaCaminhao.despacha(caminhao);
+		DespachaCaminhao.despacha(this, caminhao);
+	}
+
+	public String getFilepath() {
+		return filepath;
+	}
+
+	public void setFilepath(String filepath) {
+		this.filepath = filepath;
+	}
+	
+	public String getDocaPath() {
+		return getFilepath()+"//docas";
 	}
 
 }

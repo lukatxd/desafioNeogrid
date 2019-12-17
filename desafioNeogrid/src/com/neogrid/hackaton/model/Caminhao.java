@@ -8,6 +8,7 @@ public class Caminhao implements CaminhaoVisitable {
 	private TipoCaminhao tipoCaminhao;
 	private Double capacidade;
 	private String destino;
+	private String filepath;
 	
 	private List<Produto> produtosCarregados;
 
@@ -62,6 +63,14 @@ public class Caminhao implements CaminhaoVisitable {
 	private void carregaProduto(Produto produto) {
 		getProdutosCarregados().add(produto);
 		setCapacidade(getCapacidade() - produto.getPeso());		
+	}
+
+	public String getFilepath() {
+		return filepath;
+	}
+
+	public void setFilepath(String filepath) {
+		this.filepath = filepath;
 	}
 
 }

@@ -18,23 +18,23 @@ public class CaminhaoReader extends AbstractReader {
 	public Object parse(File fileEntry) {
 		Caminhao caminhao = new Caminhao();
 
-		try {
-			FileReader fr = new FileReader(fileEntry.toString());
-			BufferedReader br = new BufferedReader(fr);
-
-			for (String line = br.readLine(); line != null; line = br.readLine()) {
-				br.close();
-
-				File docas = new File("C:\\Neogrid\\hackaton\\teste1\\docas\\" + fileEntry.getName());
-				Path currentPath = Paths.get("C:\\Neogrid\\hackaton\\teste1\\" + fileEntry.getName());
-				Files.move(currentPath, docas.toPath());
-			}
-
-		} catch (FileNotFoundException f) {
-
-		} catch (IOException e) {
-
-		}
+//		try {
+//			FileReader fr = new FileReader(fileEntry.toString());
+//			BufferedReader br = new BufferedReader(fr);
+//
+//			for (String line = br.readLine(); line != null; line = br.readLine()) {
+//				br.close();
+//
+//				File docas = new File("C:\\Neogrid\\hackaton\\teste1\\docas\\" + fileEntry.getName());
+//				Path currentPath = Paths.get("C:\\Neogrid\\hackaton\\teste1\\" + fileEntry.getName());
+//				Files.move(currentPath, docas.toPath());
+//			}
+//
+//		} catch (FileNotFoundException f) {
+//
+//		} catch (IOException e) {
+//
+//		}
 
 		return caminhao;
 	}
