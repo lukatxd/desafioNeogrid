@@ -3,9 +3,9 @@ package com.neogrid.hackaton.tiposCaminhao;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.neogrid.hackaton.model.Caminhao;
+import com.neogrid.hackaton.model.Produto;
 import com.neogrid.hackaton.tiposProduto.TipoProduto;
-import com.neogrid.model.Caminhao;
-import com.neogrid.model.Produto;
 
 public abstract class AbstractTipoCaminhao {
 

@@ -1,6 +1,6 @@
 package com.neogrid.hackaton.tiposCaminhao;
 
-import com.neogrid.model.Produto;
+import com.neogrid.hackaton.model.Produto;
 
 public enum TipoCaminhao {
 	GERAL(CaminhaoGeral.INSTANCE),

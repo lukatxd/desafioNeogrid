@@ -1,4 +1,4 @@
-package com.neogrid.model;
+package com.neogrid.hackaton.model;
 
 import com.neogrid.hackaton.tiposProduto.TipoProduto;
 

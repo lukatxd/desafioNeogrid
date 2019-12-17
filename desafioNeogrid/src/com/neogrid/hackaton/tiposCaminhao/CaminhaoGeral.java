@@ -1,8 +1,8 @@
 package com.neogrid.hackaton.tiposCaminhao;
 
+import com.neogrid.hackaton.model.Caminhao;
+import com.neogrid.hackaton.model.Produto;
 import com.neogrid.hackaton.tiposProduto.TipoProduto;
-import com.neogrid.model.Caminhao;
-import com.neogrid.model.Produto;
 
 public class CaminhaoGeral extends AbstractTipoCaminhao {
 
